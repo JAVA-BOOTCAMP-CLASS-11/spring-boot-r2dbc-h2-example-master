@@ -1,6 +1,9 @@
 package com.bezkoder.spring.r2dbc.h2.routes;
 
 import com.bezkoder.spring.r2dbc.h2.handler.RoutesHandler;
+import com.bezkoder.spring.r2dbc.h2.model.Tutorial;
+import org.springdoc.core.annotations.RouterOperation;
+import org.springdoc.core.annotations.RouterOperations;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.server.RouterFunction;
